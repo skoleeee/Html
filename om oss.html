@@ -6,14 +6,87 @@
                 <meta name="keywords" content="nøkkelord">
                 <meta charset="UTF-8">
                 <style>
-
+                    body {
+                    margin: 0 auto;
+                    background-position: center;
+                    background-size: contain;
+                    }
+                    .menu {
+                        max-height: 30px;
+                        width: 100%;
+                        position: sticky;
+                        top: 0;
+                        background-color: green;
+                        padding: 10px 0px 10px 0px;
+                        color: white;
+                        margin: 0 auto;
+                        overflow: hidden;
+                    }
+                    .logo {
+                        text-align: center;
+                    }
+                    .menu a {
+                        width: 1080px;
+                        max-width: 1080px;
+                        max-height: 30px;
+                        text-decoration: none;
+                        font-size: 20px;
+                        color: white;
+                        text-align: justify;
+                        text-justify: inter-word;
+                        padding: 14px;
+                    }
+                    .gruppebilde {
+                        text-align: center;
+                    }
+                    .info {
+                        width: 100%;
+                        bottom: 0px;
+                        background-color: grey;
+                        color: white;
+                        position: absolute;
+                        padding-top: 20px;
+                        padding-bottom: 50px;
+                        text-align: center;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+                    .omoss{
+                        font-size: 20px;
+                        text-align: center;
+                        font-family: sans-serif;
+                        font: Arial;
+                    }
                 </style>
             </head>
     
         <body>
-            <p>
-                vi er en elevbedrift ved engebråten skole
+            <header class="logo">
+                <img width="120" height="120" src="ekte nye logo.png" alt="logoen til FreshFridge">
+            </header>
+
+            <nav class="menu">
+                <a href="FreshFridge.html">HJEM</a>
+                <a href="oppskrifter.html">OPPSKRIFTER</a>
+                <a href="kjøleskap.html">KJØLESKAP</a>
+                <a href="søk.html">SØK</a>
+                <a href="innstillinger.html">INNSTILLINGER</a>
+                <a href="om oss.html">OM OSS</a>
+            </nav>
+
+            <br>
+            <p class="omoss">
+                Vi er en elevbedrift ved engebråten skole
             </p>
+
+            <h1 class="gruppebilde">
+                <img width="380  " src="gruppebilde.png" alt="gruppebilde av oss">
+            </h1>
+
+            <footer class="info">
+                instagram: elevbedrift.freshfridge <br>
+            </footer>
+            
 
         </body>
     </html>
